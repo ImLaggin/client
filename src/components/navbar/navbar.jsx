@@ -4,9 +4,9 @@ import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 import SearchIcon from '@mui/icons-material/Search';
 import PersonIcon from '@mui/icons-material/Person';
 
-const navbar = () => {
+const Navbar = () => {
   return (
-    <div className='navbar'>
+    <div className='Navbar'>
       <div className="wrapper">  
         <div className='left'>
           <div className="item">
@@ -21,4 +21,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar
